@@ -1,0 +1,33 @@
+.top{
+    background-color:lightcoral ; width: 300px; height: 550px;
+    display: grid;
+    grid-template-areas:500fr left;
+    justify-items: center;
+    margin: 100px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    background-color: pink;
+    border-radius: 20px;
+
+}
+.btn-primary{
+    color: brown;
+    background-color: rgb(200, 255, 0);
+    border-radius: 10px;
+    width: 100%;
+}
+.topic{
+    color: black;
+    background-color: coral;
+    justify-items: center;
+    border-radius: 20px;
+}
+.body{
+    background-color: gray;
+}
+body{
+    background: #2A7B9B;
+background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+}
